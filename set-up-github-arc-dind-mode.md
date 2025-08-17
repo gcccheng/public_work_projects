@@ -235,7 +235,7 @@ DinD (docker:dind providing /var/run/docker.sock)
 
 Job container (your container: image, launched by the runner using the DinD socket)
 
-All three share a hostPath mount (e.g., /mydata) so the job container can write to a real directory on the node. This solves “persist Terraform state to local filesystem”.
+All three share a hostPath mount (e.g., /mydata) so the job container can write to a real directory on the node.
 
 #### Challenges & Solutions
 

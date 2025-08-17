@@ -1,0 +1,13 @@
+name: Actions Runner Controller Demo
+on:
+  workflow_dispatch:
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: show file system
+      run: |
+        ls
+        df -f

@@ -91,11 +91,6 @@ ARC is a Kubernetes operator that orchestrates and scales GitHub Actions runners
 * kubelet (10250/tcp)
 * kube-proxy (10256/tcp)
 
-### Storage
-
-In this case, worker node mount Samba share as storage:
-
-* `/mnt/terraform` → `/tfstate`
 
 ## 3. ARC Setup at Repository Level (with PAT)
 
